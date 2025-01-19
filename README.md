@@ -125,6 +125,15 @@ Training and validation accuracy over epochs.
 
 ![Accuracy curve](./training_validation_acc.png)
 
+# Future Improvements 🚀
+
+- Expand the dataset to include more letters and improve generalization.
+  
+- Introduce advanced architectures like ResNet or EfficientNet for better feature extraction.
+  
+- Incorporate real-time video-based sign language recognition using OpenCV.
+  
+- Use transfer learning to speed up training and improve performance.
 
 
 
