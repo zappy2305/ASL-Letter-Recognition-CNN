@@ -135,5 +135,24 @@ Training and validation accuracy over epochs.
   
 - Use transfer learning to speed up training and improve performance.
 
+# How to Run the Model 🛠️
 
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/zappy2305/ASL-Letter-Recognition-CNN.git
+   cd ASL-Letter-Recognition
+   ```
+
+3. Make sure you have Python installed (preferably Python 3.7 or higher). Then install the required Python libraries.
+
+   ```bash
+   pip install numpy pandas tensorflow keras opencv-python matplotlib
+   ```
+
+4. To make predictions, run the `predict_sign_language.py`
+
+   ```bash
+   python predict_sign_language.py
+   ```
 
