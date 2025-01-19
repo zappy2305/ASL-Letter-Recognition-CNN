@@ -93,8 +93,37 @@ The CNN model consists of the following layers:
 12. <mark>Metrics:</mark> Accuracy
 
 
+![model architecture](./model_architecture.png)
 
+# Project Workflow 🚀
 
+1. <mark>Data Loading and Preprocessing:</mark>
+   
+   - Loaded pre-shuffled datasets (training and test).
+     
+   - One-hot encoded labels for compatibility with Keras.
+     
+2. <mark>Model Definition:</mark> Built a sequential CNN using Keras layers.
+
+3. <mark>Model Training:</mark> Trained the model using the Adam optimizer and monitored validation performance with callbacks.
+   
+5. <mark>Evaluation:</mark> Tested the model on unseen data (test set).
+   
+7. <mark>Error Analysis:</mark> Visualized misclassified images for debugging.
+
+# Visualizations 📊
+
+> ### Loss Curve
+
+ Training and validation loss over epochs.
+
+ ![loss curve](./training_validation_loss.png)
+
+> ### Accuracy Curve
+
+Training and validation accuracy over epochs.
+
+![Accuracy curve](./training_validation_acc.png)
 
 
 
